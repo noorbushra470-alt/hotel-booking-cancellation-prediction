@@ -31,26 +31,26 @@ Hotel cancellations cost revenue and make planning harder. This project cleans a
 **Cancellation rate: City Hotel vs Resort Hotel**
 City Hotel bookings are cancelled noticeably more often than Resort Hotel bookings.
 
-![Cancellation rate by hotel](images/cancellation_rate_by_hotel.png)
+![Cancellation rate by hotel](cancellation_rate_by_hotel.png)
 
 **Most popular meal types**
 Bed & Breakfast (BB) is by far the most common meal plan.
 
-![Meal types](images/meal_types.png)
+![Meal types](meal_types.png)
 
 **Returning vs new guests**
 Only a small share of bookings come from returning guests.
 
-![Returning guests](images/returning_guests.png)
+![Returning guests](returning_guests.png)
 
 **Most booked room types**
 Room type A dominates bookings, followed by D and E.
 
-![Room types](images/room_types.png)
+![Room types](room_types.png)
 
 **Room type vs cancellations**
 
-![Room type vs cancellation](images/room_type_vs_cancellation.png)
+![Room type vs cancellation](room_type_vs_cancellation.png)
 
 ### 3. Feature Engineering
 - **Binning:** grouped `lead_time` into Very Short, Short, Medium, Long and Very Long
@@ -72,18 +72,18 @@ Room type A dominates bookings, followed by D and E.
 
 **Overall accuracy: 83.7%**
 
-![Confusion matrix](images/confusion_matrix.png)
+![Confusion matrix](confusion_matrix.png)
 
 ### 6. Feature Importance
 The features that mattered most to the model's predictions:
 
-![Feature importance](images/feature_importance.png)
+![Feature importance](feature_importance.png)
 
 ## How to Run
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<your-username>/hotel-booking-cancellation-prediction.git
+   git clone https://github.com/noorbushra470-alt/hotel-booking-cancellation-prediction.git
    ```
 2. Download the dataset `hotel_bookings.csv` (available on Kaggle as "Hotel booking demand") and place it in the same folder as the notebook.
 3. Install the requirements:
